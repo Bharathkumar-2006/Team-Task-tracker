@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  // State to manage tasks
+  
   const [tasks, setTasks] = useState([]);
   const [taskName, setTaskName] = useState('');
   const [taskStatus, setTaskStatus] = useState('');
