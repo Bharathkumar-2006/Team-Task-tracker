@@ -20,7 +20,7 @@ router.post('/add', async (req, res) => {
     }
 
     const newTask = new Task({
-      userId, // Assign the task to the user
+      userId, 
       name,
       status,
     });
@@ -33,7 +33,6 @@ router.post('/add', async (req, res) => {
   }
 });
 
-// Route to update a task by ID
 router.put('/update/:id', async (req, res) => {
   const { id } = req.params;
   const { userId, name, status } = req.body;
