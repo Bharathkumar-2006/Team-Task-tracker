@@ -1,9 +1,13 @@
+body{
+  background-color: #242424;
+  }
 .App {
     font-family: sans-serif;
     text-align: center;
-    padding: 20px;
-  }
-  
+    padding: 20px;    
+    color: grey;
+    font-size: large;
+  }  
   input {
     margin: 10px;
     padding: 5px;
