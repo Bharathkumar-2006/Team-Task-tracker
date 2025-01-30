@@ -45,7 +45,7 @@ function Login() {
 
   return (
     <div className="auth-container">
-      <h1>Team Task Tracker Login</h1>
+      <h1>Login</h1>
       {errorMessage && <div className="error">{errorMessage}</div>}
       {successMessage && <div className="success">{successMessage}</div>}
       <form onSubmit={handleLogin}>

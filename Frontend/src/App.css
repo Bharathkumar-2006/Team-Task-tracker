@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f0f4f8;
+  background-color: #161c22;
   margin: 0;
   padding: 0;
 }
@@ -13,13 +13,13 @@ body {
 
 h1 {
   font-size: 36px;
-  color: #333;
+  color: #f8f7fa;
   margin-bottom: 20px;
 }
 
 /* Auth Forms */
 .auth-container {
-  background-color: #ffffff;
+  background-color: #8565dd;
   padding: 20px;
   margin: 20px auto;
   max-width: 400px;
@@ -95,7 +95,9 @@ h1 {
   max-width: 600px;
   margin: 0 auto;
 }
-
+.panel{
+  color: #14c41f;
+}
 .task-item {
   background-color: #ffffff;
   padding: 15px;
@@ -123,4 +125,8 @@ h1 {
 
 .task-item button:hover {
   background-color: #0056b3;
+}
+
+.logout-btn {
+  background-color: red;
 }

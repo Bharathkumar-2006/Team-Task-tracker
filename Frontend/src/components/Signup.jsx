@@ -48,7 +48,7 @@ function Signup() {
 
   return (
     <div className="auth-container">
-      <h1>Team Task Tracker Signup</h1>
+      <h1>Signup</h1>
       {errorMessage && <div className="error">{errorMessage}</div>}
       {successMessage && <div className="success">{successMessage}</div>}
       <form onSubmit={handleSignup}>
