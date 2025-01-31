@@ -19,7 +19,7 @@ function Home() {
   useEffect(() => {
     const fetchTasks = async () => {
       try {
-        const response = await fetch(`https://team-task-tracker-pink.vercel.app/api/tasks/${userId}`);
+        const response = await fetch(`https://team-task-tracker.onrender.com/api/tasks/${userId}`);
         const data = await response.json();
         if (response.ok) {
           setTasks(data);
@@ -39,7 +39,7 @@ function Home() {
   const handleAddTask = async () => {
     if (newTask.trim() !== '') {
       try {
-        const response = await fetch('https://team-task-tracker-pink.vercel.app/api/tasks/add', {
+        const response = await fetch('https://team-task-tracker.onrender.com/api/tasks/add', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -61,7 +61,7 @@ function Home() {
 
   const handleChangeStatus = async (id, newStatus) => {
     try {
-      const response = await fetch(`https://team-task-tracker-pink.vercel.app/api/tasks/update/${id}`, {
+      const response = await fetch(`https://team-task-tracker.onrender.com/api/tasks/update/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

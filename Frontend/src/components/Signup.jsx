@@ -18,7 +18,7 @@ function Signup() {
     const userData = { name, email, company, role, password };
 
     try {
-      const response = await fetch('https://team-task-tracker-pink.vercel.app/api/users/signup', {
+      const response = await fetch('https://team-task-tracker.onrender.com/api/users/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
