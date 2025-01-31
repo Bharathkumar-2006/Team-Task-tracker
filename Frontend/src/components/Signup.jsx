@@ -43,6 +43,7 @@ function Signup() {
     } catch (error) {
       setErrorMessage('Error occurred, please try again!');
       setSuccessMessage('');
+      console.log(error);
     }
   };
 
